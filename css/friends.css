@@ -1,0 +1,43 @@
+.friends__section .friends__section-header {
+  border-top:1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  padding: 10px 15px;
+  font-size: 12px;
+  color: #b4b4b4;        /*오류 고쳐야함*/
+}
+
+.friends__section-rows .friends__section-row {
+  padding: 10px 15px;
+  display:  flex;
+  align-items: center;
+  font-size: 14px;           /* 마이 프로필 사진들 */
+}
+
+.friends__section-row.with-tagline{
+  justify-content: space-between;  /* 프랜드 mom 상태메시지 간격 맞추기 */
+}
+
+.friends__section-tagline{
+  font-size: 10px;
+  background: #f0f0f0;
+  padding: 10px 10px;
+  border-radius: 5px;    /*상태 메시지 */
+  color: #939393;
+}
+
+.friends__section-row img {
+  width:40px;
+  border-radius: 50%;   /*--프사 동그래짐 */
+  margin-right: 15px;
+}
+
+
+.friends__section-row a{
+  text-decoration: none;   /* 효과 없애기*/
+  color: inherit;
+}
+
+.friends__section-column{
+  display: flex;
+  align-items: center;    /*아이템을 위해서 flex 함 center로 길어지는거 아님 */
+}
