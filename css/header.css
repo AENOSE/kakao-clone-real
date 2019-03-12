@@ -1,4 +1,3 @@
-
 .top-header{
   box-sizing:border-box; /*이것을 하면 width가 맞아짐 pading도*/
   background-color:#523737;
@@ -26,6 +25,10 @@
 }
 .top-header .header__column{
   width: 33%;
+}
+
+.top-header .header__bottom .header__column:first-child{
+  color: rgba(255, 255, 255, 0.5); /* 안됨 */
 }
 .top-header .header__column:last-child{
   text-align: right;

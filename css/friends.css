@@ -4,6 +4,8 @@
   padding: 10px 15px;
   font-size: 12px;
   color: #b4b4b4;        /*오류 고쳐야함*/
+  max-width: 100px;
+  width: 150px;
 }
 
 .friends__section-rows .friends__section-row {
@@ -24,6 +26,8 @@
   border-radius: 5px;    /*상태 메시지 */
   color: #939393;
 }
+
+
 
 .friends__section-row img {
   width:40px;
